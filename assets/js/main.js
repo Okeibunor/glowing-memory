@@ -119,6 +119,11 @@ var swiperTestimonial = new Swiper('.testimonial__container', {
         clickable: true,
         dynamicBullets: true
     },
+    breakpoints: {
+        568: {
+            slidesPerView: 2,
+        }
+    }
 })
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
@@ -131,3 +136,8 @@ var swiperTestimonial = new Swiper('.testimonial__container', {
 
 
 /*==================== DARK LIGHT THEME ====================*/
+
+//PARTICLES JS
+particlesJS.load('particles-js', '/assets/js/particles.json', function () {
+    console.log('callback - particles.js config loaded');
+});

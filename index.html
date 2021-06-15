@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="./assets/img/avatar.jpeg" type="image/x-icon">
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="./assets/css/styles.css">
+
+        <title>Okeibunor Favour -Fullstack Web Developer</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="/" class="nav__logo">
+                    <svg width="37" height="25" viewBox="0 0 37 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="25.5059" cy="11.2585" r="10.0158" stroke="#3750CD" stroke-width="1.95628"/>
+                    <path d="M20.0536 5.26984L23.6375 8.25641C24.0084 8.56545 24.0152 9.13278 23.6519 9.45067L20.0536 12.5992M24.344 14.3868H30.9583" stroke="#3750CD" stroke-width="1.95628"/>
+                    <path d="M13.9503 1.1106H2.50636C1.74979 1.1106 1.13647 1.72392 1.13647 2.48049V19.7246C1.13647 21.0966 2.92966 21.6167 3.66372 20.4574L5.59346 17.41" stroke="#3750CD" stroke-width="1.95628"/>
+                    </svg>
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav_item">
+                            <a href="#home" class="nav__link">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> About
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Skills
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#services" class="nav__link"> 
+                                <i class="uil uil-briefcase-alt nav__icon"></i> Portfolio
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contact Me
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="linkedin.com" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="github.com/okeibunor" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                            <a href="twitter.com/okeibunorfavour" target="_blank" class="home__social-icon">
+                                <i class="uil uil-twitter-alt"></i>
+                            </a>
+                            <a href="facebook.com/okeibunorfavour" target="_blank" class="home__social-icon">
+                                <i class="uil uil-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="home_blob">
+                            <img src="./assets/img/avatar.jpeg" alt="">
+                        </div>
+                        <div class="home__data">
+                            <h1 class="home__title">
+                                <svg width="46" height="47" viewBox="0 0 46 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.44023 12.3779C7.62968 11.5465 9.4227 11.706 10.4907 12.5879L9.2658 10.8075C8.28008 9.40172 8.63311 7.88075 10.0402 6.89377C11.4473 5.91058 15.4345 8.55393 15.4345 8.55393C14.4399 7.13419 14.6259 5.33484 16.0456 4.339C17.4654 3.34695 19.4241 3.68986 20.4187 5.11213L33.6038 23.7383L31.9234 40.0299L17.8994 34.9153L5.6671 16.7788C4.66366 15.3502 5.01037 13.38 6.44023 12.3779Z" fill="#90603E"/>
+                                <path d="M3.69954 22.7399C3.69954 22.7399 2.26714 20.6521 4.35626 19.221C6.44285 17.7898 7.87398 19.8764 7.87398 19.8764L14.5184 29.5666C14.7474 29.1845 14.998 28.8074 15.2776 28.4354L6.05565 14.9883C6.05565 14.9883 4.62452 12.9017 6.71237 11.4706C8.79896 10.0395 10.2301 12.1261 10.2301 12.1261L18.9042 24.7759C19.2268 24.5127 19.5571 24.2483 19.8975 23.9889L9.84162 9.32201C9.84162 9.32201 8.41049 7.23543 10.4983 5.8043C12.5849 4.37317 14.0161 6.45976 14.0161 6.45976L24.0719 21.1241C24.4414 20.8976 24.8071 20.7014 25.1741 20.4939L15.7749 6.78749C15.7749 6.78749 14.3438 4.7009 16.4304 3.26977C18.517 1.83864 19.9481 3.92523 19.9481 3.92523L29.8863 18.4187L31.3971 20.623C25.1361 24.9176 24.5401 32.997 28.1173 38.2141C28.8322 39.258 29.8762 38.5431 29.8762 38.5431C25.5828 32.2808 26.8937 25.2441 33.156 20.9507L31.3098 11.711C31.3098 11.711 30.6202 9.27646 33.0535 8.58557C35.488 7.89595 36.1789 10.3305 36.1789 10.3305L38.3111 16.6624C39.1563 19.1729 40.056 21.6745 41.2467 24.0407C44.6088 30.7219 42.6007 39.0252 36.2612 43.3743C29.346 48.1156 19.8924 46.3529 15.1498 39.439L3.69954 22.7399Z" fill="#AF7E57"/>
+                                <path d="M15.4738 41.3485C10.4123 41.3485 5.2977 36.2339 5.2977 31.1724C5.2977 30.4727 4.78523 29.907 4.08548 29.907C3.38573 29.907 2.76697 30.4727 2.76697 31.1724C2.76697 38.7646 7.88157 43.8792 15.4738 43.8792C16.1735 43.8792 16.7391 43.2604 16.7391 42.5607C16.7391 41.8609 16.1735 41.3485 15.4738 41.3485Z" fill="#5DADEC"/>
+                                <path d="M9.14686 43.826C5.35077 43.826 2.82004 41.2953 2.82004 37.4992C2.82004 36.7995 2.25442 36.2338 1.55467 36.2338C0.854925 36.2338 0.289307 36.7995 0.289307 37.4992C0.289307 42.5607 4.0854 46.3568 9.14686 46.3568C9.84661 46.3568 10.4122 45.7911 10.4122 45.0914C10.4122 44.3917 9.84661 43.826 9.14686 43.826ZM30.6581 3.33435C29.9596 3.33435 29.3927 3.90123 29.3927 4.59972C29.3927 5.2982 29.9596 5.86508 30.6581 5.86508C35.7195 5.86508 40.781 10.4065 40.781 15.988C40.781 16.6865 41.3479 17.2534 42.0464 17.2534C42.7448 17.2534 43.3117 16.6865 43.3117 15.988C43.3117 9.01078 38.2503 3.33435 30.6581 3.33435Z" fill="#5DADEC"/>
+                                <path d="M36.9849 0.85675C36.2864 0.85675 35.7195 1.37049 35.7195 2.06897C35.7195 2.76745 36.2864 3.38748 36.9849 3.38748C40.781 3.38748 43.2586 6.20292 43.2586 9.66116C43.2586 10.3596 43.8774 10.9265 44.5771 10.9265C45.2768 10.9265 45.7893 10.3596 45.7893 9.66116C45.7893 4.80596 42.0464 0.85675 36.9849 0.85675Z" fill="#5DADEC"/>
+                                </svg>
+                                , I’m Favour
+                            </h1>
+                            <h3 class="home__subtitle">Fullstack developer</h3>
+                            <p class="home__description">
+                                Fullstack Web Developer with strengths in Frontend Web
+                                Development and Jamstack development.
+
+                                I’m also interested in Blockchain and DeFi Development and 
+                                conversant with Data Structures and Algorithms
+                                
+                            </p>
+                            <a href="#contact" class="button button--flex">
+                                Talk to Me <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>                
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">Introduction</span>
+
+                <div class="about__container container grid">
+                    <img src="./assets/img/avatar.jpeg" alt="">
+
+                    <div class="about__data">
+                        <p class="
+                        about__description">
+                            Born in Benin, Nigeria, I’ve lived my 
+                            life trying to show love the best way 
+                            I can.
+
+                            I find that I’m naturally hilarious, I
+                            love good work and nature as well.  
+
+                            I studied Petroleum Engineering at the University of Benin, interned at the Department of Petroleum Resources and Chevron Nigeria Limited. 
+
+                            I picked up a passion from programming in school
+                        </p>
+                        <div class="about__info">
+                            <div>
+                               <span class="about__info-title">02+</span> 
+                               <span class="about__info-name">Years <br> experience</span>
+                            </div>
+
+                            <div>
+                               <span class="about__info-title">10+</span> 
+                               <span class="about__info-name">Completed <br> projects</span>
+                            </div>
+                            <div>
+                               <span class="about__info-title">02+</span> 
+                               <span class="about__info-name">Companies <br> Worked</span>
+                            </div>
+                        </div>
+                        <div class="about__buttons">
+                            <a href="#" download="#" class="button button--flex">
+                                Download Resume<i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My technical competence</span>
+
+                <div class="skills__container container grid">
+                    <div>
+                        <!--==================== SKILLS 1 ====================-->
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__titles">Frontend developer</h1>
+                                    <span class="skills__subtitle">+2 years</span>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__html"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__css"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Javascript</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__js"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">React</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__react"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Vue</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__vue"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--==================== SKILLS 2 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-server-network skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__titles">Backend developer</h1>
+                                    <span class="skills__subtitle">+2 years</span>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">PHP</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__php"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Laravel</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__laravel"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Nodejs/Express</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__node"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__number">50%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__python"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--==================== SKILLS 3 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-cloud-database-tree skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__titles">Devops</h1>
+                                    <span class="skills__subtitle">+1 years</span>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Linux</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__linux"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         <!--==================== SKILLS 4 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-palette skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__titles">Design</h1>
+                                    <span class="skills__subtitle">+1 years</span>
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Figma</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__figma"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>  
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
+                <h2 class="section__title">Qualification</h2>
+                <span class="section__subtitle">Learning Journey</span>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                         <div class="qualification__button button--flex qualification__active" data-target="#education">
+                             <i class="uil uil-graduation-cap qualification__icon"></i>
+                             Education
+                         </div>
+
+                         <div class="qualification__button button--flex" data-target="#work">
+                             <i class="uil uil-briefcase-alt qualification"></i>
+                            Work Experience
+                         </div>
+                    </div>
+
+                    <div class="qualification__sections">
+                        <!--=====================QUALIFICATION CONTENT 1 ===================  -->
+                        <div class="qualification__content qualification__active" data-content id="education">
+                            <!-- Qualification 1 -->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Petroleum Engineering</h3>
+                                    <span class="qualification__subtitle">University of Benin</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2014 - 2019
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Mobile Web Development</h3>
+                                    <span class="qualification__subtitle">Google Africa Developer Scholarship 2020</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2020
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="qualification__data">
+
+                                
+                                <div>
+                                    <h3 class="qualification__title">Blockchain Development</h3>
+                                    <span class="qualification__subtitle">Udacity</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2021 - Present
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--=====================QUALIFICATION CONTENT 2 ===================  -->
+                        <div class="qualification__content" data-content id="work">
+                            <!-- Qualification 2 -->
+                            <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification__title">Petroleum Engineering Intern</h3>
+                                    <span class="qualification__subtitle">Department of Petroleum Resources</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2019
+                                    </div>
+                                </div>
+                                
+                            </div>
+    
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Petroleum Engineering Intern</h3>
+                                    <span class="qualification__subtitle">Chevron Nigeria Limited</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2019
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification__title">Software Engineer</h3>
+                                    <span class="qualification__subtitle">HollaTags Limited</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        August 2020 - Present
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                <h2 class="section__title">Services</h2>
+                <span class="section__subtitle">Services I offer</span>
+
+                <div class="services__container container grid">
+                    <!--==================== SERVICES 1====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-web-grid"></i>
+                            <h3 class="services__title">Fullstack Web Developer</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">
+                            View More 
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Fullstack Web Developer</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I convert UI designs to Pixel Perfect Web Pages</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I also build APIs according to specifications to be consumed by Frontend Applications</p>
+                                    </li>
+                                     <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I also build Fullstack Web Applications, Bank Applications, Trading Applications with automations, Signals</p>
+                                    </li>
+                                     <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I also write and configure cron jobs to run specific background tasks in an application</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I also build Portals, Dashboards</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I build Real-time applications that use WebSockets e.g Socket.io for real-time operations/notifications</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                
+
+            </section>
+
+            <!--==================== PROJECT IN MIND ====================-->
+            <section class="project section">
+
+
+            </section>
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section">
+                
+
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+
+
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+
+            
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="./assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>

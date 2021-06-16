@@ -1043,6 +1043,9 @@
  /*==================== MEDIA QUERIES ====================*/
  /* For small devices */
  @media screen and (max-width:350px) {
+     body {
+         overflow-x: hidden;
+     }
 
      .container {
          margin-inline: var(--mb-1);

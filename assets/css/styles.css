@@ -191,7 +191,7 @@
      display: flex;
      justify-content: space-between;
      align-items: center;
-     padding: 1.3rem 0;
+     padding: 1.3rem;
  }
 
  .nav__logo,
@@ -283,7 +283,6 @@
 
  .home__content {
      grid-template-columns: .5fr 3fr;
-     padding-top: 3.5rem;
      align-items: center;
  }
 
@@ -1038,11 +1037,6 @@
  /* For small devices */
  @media screen and (max-width:350px) {
 
-     .nav,
-     body {
-         padding: 1.5rem;
-     }
-
      .container {
          margin-inline: var(--mb-1);
      }
@@ -1326,6 +1320,7 @@
      .nav {
          max-width: 1024px;
          margin: auto 10rem;
+         padding: 1.3rem 0;
      }
 
      .container {

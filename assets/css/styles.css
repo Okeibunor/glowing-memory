@@ -1384,3 +1384,20 @@
          transform: translate(6px, -13px);
      }
  }
+
+ /* Waving Hand */
+ .wave {
+     animation: waves 0.75s ease-in-out infinite alternate-reverse;
+ }
+
+ @keyframes waves {
+     from {
+         transform: rotate(7deg);
+         transform-origin: 100% 100%;
+     }
+
+     to {
+         transform: rotate(-7deg);
+         transform-origin: 100% 100%;
+     }
+ }

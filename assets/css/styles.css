@@ -1037,6 +1037,8 @@
  /*==================== MEDIA QUERIES ====================*/
  /* For small devices */
  @media screen and (max-width:350px) {
+
+     .nav,
      body {
          padding: 1.5rem;
      }
@@ -1107,6 +1109,8 @@
 
  /* For medium devices */
  @media screen and (min-width:568px) {
+
+     .nav,
      body {
          padding: 1.5rem;
      }

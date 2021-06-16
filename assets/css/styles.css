@@ -944,7 +944,7 @@
  }
 
  .footer__title {
-     font-size: var(--h1-font-size);
+     font-size: var(--h2-font-size);
      margin-bottom: var(--mb-0-25);
  }
 
@@ -1280,7 +1280,7 @@
 
      .footer__links {
          flex-direction: row;
-         column-gap: 2rem;
+         justify-content: space-between;
      }
 
      .footer__socials {
@@ -1289,6 +1289,10 @@
 
      .footer__copy {
          margin-top: 4.5rem;
+     }
+
+     .footer__link {
+         font-size: var(--small-font-size);
      }
 
  }
@@ -1301,6 +1305,14 @@
 
  /* For large devices */
  @media screen and (min-width:1024px) {
+     .nav {
+         max-width: 1024px;
+         margin: auto 10rem;
+     }
+
+     .container {
+         max-width: 1024px;
+     }
 
      .header,
      .main,

@@ -1029,6 +1029,10 @@
  /*==================== MEDIA QUERIES ====================*/
  /* For small devices */
  @media screen and (max-width:350px) {
+     body {
+         padding-inline: 1.5rem;
+     }
+
      .container {
          margin-inline: var(--mb-1);
      }
@@ -1093,6 +1097,10 @@
 
  /* For medium devices */
  @media screen and (min-width:568px) {
+     body {
+         padding-inline: 1.5rem;
+     }
+
      .home__content {
          grid-template-columns: max-content 1fr 1fr;
      }
@@ -1131,6 +1139,7 @@
 
      body {
          margin: 0;
+         padding-inline: 1.5rem;
      }
 
      .section {

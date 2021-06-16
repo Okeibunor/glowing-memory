@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Okeibunor/glowing-memory.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Okeibunor Favour",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Okeibunor/glowing-memory/issues"
+  },
+  "homepage": "https://github.com/Okeibunor/glowing-memory#readme",
+  "dependencies": {
+    "smoothscroll-polyfill": "^0.4.4"
+  }
+}

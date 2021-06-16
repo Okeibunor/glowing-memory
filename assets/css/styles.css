@@ -975,7 +975,7 @@
  .footer__copy {
      font-size: var(--smaller-font-size);
      text-align: center;
-     color: var(--text-color-light);
+     color: rgb(221, 221, 221);
      margin-top: var(--mb-3);
      background-color: var(--first-color);
  }

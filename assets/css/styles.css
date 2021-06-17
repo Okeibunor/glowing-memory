@@ -124,6 +124,8 @@ body {
   position: fixed;
   z-index: -10;
   top: 20vh;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 h1,

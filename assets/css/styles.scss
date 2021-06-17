@@ -375,6 +375,9 @@
      padding: 1rem;
      border-radius: .5rem;
      font-weight: var(--font-medium);
+     outline: none;
+     border: none;
+     -webkit-appearance: none;
  }
 
  .button:hover {

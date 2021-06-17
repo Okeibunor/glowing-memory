@@ -197,3 +197,19 @@ themeButton.addEventListener('click', () => {
 particlesJS.load('particles-js', '/assets/js/particles.json', function () {
     console.log('callback - particles.js config loaded');
 });
+
+// form handling 
+
+// document.querySelector(".contact__form").addEventListener("submit", handleSubmit);
+
+// const handleSubmit = (e) => {
+//     e.preventDefault()
+//     let myForm = document.getElementById('contact__message');
+//     let formData = new FormData(myForm)
+//     fetch('/', {
+//         method: 'POST',
+//         headers: { "Content-Type": "application/x-www-form-urlencoded" },
+//         body: new URLSearchParams(formData).toString()
+//     }).then(() => console.log('Form successfully submitted')).catch((error) =>
+//         alert(error))
+// }

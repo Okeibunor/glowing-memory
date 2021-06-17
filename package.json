@@ -1,0 +1,30 @@
+{
+  "name": "portfolio-new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:lambda": "netlify-lambda serve netlify/functions",
+    "prod": "netlify-lambda build netlify/functions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Okeibunor/glowing-memory.git"
+  },
+  "keywords": [
+    "MIT"
+  ],
+  "author": "Okeibunor Favour",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Okeibunor/glowing-memory/issues"
+  },
+  "homepage": "https://github.com/Okeibunor/glowing-memory#readme",
+  "dependencies": {
+    "airtable": "^0.11.1",
+    "dotenv": "^10.0.0",
+    "mailgun-js": "^0.22.0",
+    "netlify-lambda": "^2.0.9"
+  }
+}

@@ -200,7 +200,7 @@ particlesJS.load('particles-js', '/assets/js/particles.json', function () {
 
 // Lottie Files
 const svgContainer = document.getElementById("svg")
-
+const circle = document.getElementById('circle')
 const animItem = bodymovin.loadAnimation({
     wrapper: svgContainer,
     animType: 'svg',
@@ -208,3 +208,12 @@ const animItem = bodymovin.loadAnimation({
     autoplay: true,
     path: 'https://assets1.lottiefiles.com/packages/lf20_toofqbxc.json'
 })
+
+const animNewItem = bodymovin.loadAnimation({
+    wrapper: circle,
+    animType: 'svg',
+    path: 'https://assets8.lottiefiles.com/packages/lf20_d4wqcnqf.json'
+})
+
+
+

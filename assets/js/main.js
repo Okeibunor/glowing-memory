@@ -199,3 +199,12 @@ particlesJS.load('particles-js', '/assets/js/particles.json', function () {
 });
 
 // Lottie Files
+const svgContainer = document.getElementById("svg")
+
+const animItem = bodymovin.loadAnimation({
+    wrapper: svgContainer,
+    animType: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'https://assets1.lottiefiles.com/packages/lf20_toofqbxc.json'
+})

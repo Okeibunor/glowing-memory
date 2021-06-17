@@ -838,8 +838,8 @@
      padding-top: 3rem;
  }
 
- .preoject__title {
-     font-size: var(--h2-font-size);
+ .project__title {
+     font-size: var(--h1-font-size);
      margin-bottom: var(--mb-0-75);
  }
 
@@ -1293,6 +1293,7 @@
          padding: 3rem 2.5rem;
          grid-template-columns: repeat(2, 1fr);
          column-gap: 3rem;
+         align-items: center;
      }
 
      .footer__container {

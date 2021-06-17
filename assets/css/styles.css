@@ -923,8 +923,8 @@ img {
   padding-top: 3rem;
 }
 
-.preoject__title {
-  font-size: var(--h2-font-size);
+.project__title {
+  font-size: var(--h1-font-size);
   margin-bottom: var(--mb-0-75);
 }
 
@@ -1376,6 +1376,9 @@ img {
         grid-template-columns: repeat(2, 1fr);
     -webkit-column-gap: 3rem;
             column-gap: 3rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .footer__container {
     -ms-grid-columns: (1fr)[3];

@@ -166,7 +166,7 @@
 
  /*==================== REUSABLE CSS CLASSES ====================*/
  .section {
-     padding: 2rem 0 4rem;
+     padding: 2rem 1rem 4rem;
  }
 
  .section__title {
@@ -854,6 +854,7 @@
 
  .project__title {
      font-size: var(--h1-font-size);
+     line-height: 2.1rem;
      margin-bottom: var(--mb-0-75);
  }
 
@@ -1060,11 +1061,6 @@
  /*==================== MEDIA QUERIES ====================*/
  /* For small devices */
  @media screen and (max-width:350px) {
-     body {
-         overflow-x: hidden;
-         padding-inline: 1.5rem;
-     }
-
      .container {
          margin-inline: var(--mb-1);
      }
@@ -1365,7 +1361,7 @@
      }
 
      .services__container {
-         grid-template-columns: repeat(3, 238px);
+         grid-template-columns: repeat(3, 1fr);
      }
 
      .portfolio__content {

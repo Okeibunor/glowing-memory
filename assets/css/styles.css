@@ -1065,8 +1065,7 @@ img {
 }
 
 .footer__container {
-  /* background-color: var(--first-color-second); */
-  padding: 2rem 0 3rem;
+  padding: 2rem 1rem 3rem;
 }
 
 .footer__title {

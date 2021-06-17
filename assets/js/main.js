@@ -212,6 +212,9 @@ const animItem = bodymovin.loadAnimation({
 const animNewItem = bodymovin.loadAnimation({
     wrapper: circle,
     animType: 'svg',
+    mode: "bounce",
+    speed: "0.3",
+    direction: "backward",
     path: 'https://assets8.lottiefiles.com/packages/lf20_d4wqcnqf.json'
 })
 

@@ -215,6 +215,7 @@ const animNewItem = bodymovin.loadAnimation({
     mode: "bounce",
     speed: "0.3",
     direction: "backward",
+    loop: "false",
     path: 'https://assets8.lottiefiles.com/packages/lf20_d4wqcnqf.json'
 })
 

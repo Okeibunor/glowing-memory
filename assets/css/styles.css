@@ -127,7 +127,6 @@ body {
   z-index: -10;
   top: 15vh;
   left: 10vw;
-  width: 25vw;
 }
 
 #circle {
@@ -1217,9 +1216,6 @@ img {
   .testimonial__data,
   .testimonial__description {
     text-align: center;
-  }
-  #particles-js {
-    width: 75vw;
   }
 }
 

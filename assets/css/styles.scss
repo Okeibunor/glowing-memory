@@ -205,6 +205,7 @@
      left: 0;
      z-index: var(--z-fixed);
      background-color: var(--body-color);
+     transition: .3s cubic-bezier(0.8, 0.2, 0.8, 1);
  }
 
  /*==================== NAV ====================*/

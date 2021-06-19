@@ -203,6 +203,8 @@ img {
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--body-color);
+  -webkit-transition: 0.3s cubic-bezier(0.8, 0.2, 0.8, 1);
+  transition: 0.3s cubic-bezier(0.8, 0.2, 0.8, 1);
 }
 
 /*==================== NAV ====================*/
@@ -1289,6 +1291,9 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-column-gap: 2rem;
             column-gap: 2rem;
   }

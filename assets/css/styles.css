@@ -1219,6 +1219,9 @@ img {
   .testimonial__description {
     text-align: center;
   }
+  #particles-js {
+    width: 75vw;
+  }
 }
 
 /* For medium devices */
